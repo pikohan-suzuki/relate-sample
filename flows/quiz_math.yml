@@ -56,6 +56,10 @@ groups:
             # Welcome to the test quiz for RELATE!
 
             Don't be scared.
+-
+    id: quiz_start
+    shuffle: False
+    pages:
     -
         {{ indented_include("questions/matrix-properties.yml", 8) }}
 
