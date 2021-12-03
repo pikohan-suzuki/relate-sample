@@ -1,16 +1,15 @@
 type: InlineMultiQuestion
-id: e477a7a519fc4f59b283306a19a83dc1
+id: 211a68c346bc44cbb3c179945147bb42
 value: 5
 prompt: |
 
     # Q1.1(2) 次の数式の[イ]，[ウ]に⼊る適切な整数値を答えよ．(半角で入力)
 
-    $\Large\sum_{k=1}^{n}(2k^{3}+3k^{2}+k)=\frac{1}{2}n(n+[[イ]])^{2}(n+[[ウ]])$
-  
+    $\Large\sum_{k=1}^{n}(2k^{3}+3k^{2}+k)=\frac{1}{2}n(n+[イ])^{2}(n+[ウ])$
+
 question: |
-  
-    ウ：[[blank1]])  エ：[[blank2]]
-  
+
+    [イ]: [[blank1]] [ウ]: [[blank2]] 
 answers:
 
     blank1:

@@ -1,16 +1,13 @@
 type: TextQuestion
-id: 1aac4042eef54ac1b0ddf24262d79224
+id: 00c714e5487f4332bbdf93fcb0c94d10
 value: 5
 prompt: |
 
     # Q1.1(1) 次の和を求めよ．(半角で入力)
-  
+
     $\Large\sum_{k=1}^{14}(2k+1)=[ア]$
-  
+
 answers:
 
 - type: float
   value: 224
-
-- type: float
-  value: 10
