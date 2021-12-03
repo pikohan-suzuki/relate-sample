@@ -7,7 +7,7 @@ prompt: |
 
 question: |
 
-  $\Large\sum_{k=1}^{n}2^{2k+3}=\frac{[[blank1]]}{3}×([[blank2]]x^{n}−1)$
+  $\Large\sum_{k=1}^{n}2^{2k+3}=\frac{[[blank1]]}{3}×(x^{n}−1)$
 
 answers:
 
