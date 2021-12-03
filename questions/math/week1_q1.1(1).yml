@@ -11,3 +11,6 @@ answers:
 
 - type: float
   value: 224
+
+- type: float
+  value: 10
