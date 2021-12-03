@@ -4,9 +4,9 @@ value: 5
 prompt: |
 
     # Q1.1(1) 次の和を求めよ．(半角で入力)
-
+  
     $\Large\sum_{k=1}^{14}(2k+1)=[ア]$
-
+  
 answers:
 
 - type: float
