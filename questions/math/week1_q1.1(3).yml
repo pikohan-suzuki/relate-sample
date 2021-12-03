@@ -10,18 +10,18 @@ question: |
   $\Large\sum_{k=1}^{n}2^{2k+3}=\frac{x}{3}×(x^{n}−1)$
   [[blank2]]
 answers:
+  blank1:
+    type: ShortAnswer
+    width: 4em
+    correct_answer:
+    - <plain>"1"
+    - type: float
+      value: 32
 
-    blank1:
-        type: ShortAnswer
-        width: 4em
-        correct_answer:
-        - <plain>"1"
-        - type: float
-          value: 32
-    blank2:
-        type: ShortAnswer
-        width: 4em
-        correct_answer:
-        - <plain>"2"
-        - type: float
-          value: 4
+  blank2:
+    type: ShortAnswer
+    width: 4em
+    correct_answer:
+    - <plain>"2"
+    - type: float
+      value: 4
