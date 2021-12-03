@@ -7,8 +7,8 @@ prompt: |
 
 question: |
 
-	$\Large\sum_{k=1}^{n}(2k^{3}+3k^{2}+k)=\frac{1}{2}n(n+[[blank1]])^{2}(n+[[blank2]])$
-
+    $\Large\sum_{k=1}^{n}(2k^{3}+3k^{2}+k)=\frac{1}{2}n(n+[[blank1]])^{2}(n+[[blank2]])$
+    
 answers:
 
     blank1:
