@@ -56,15 +56,17 @@ groups:
             # Welcome to the test quiz for RELATE!
 
             Don't be scared.
+    -
+        {{ indented_include("questions/matrix-properties.yml", 8) }}
 
     -
-        {{ indented_include("questions/math/qeek1_q1.1(1).yml", 8) }}
+        {{ indented_include("questions/math/week1_q1.1(1).yml", 8) }}
 
     -
-        {{ indented_include("questions/math/qeek1_q1.1(1).yml", 8) }}
+        {{ indented_include("questions/math/qeek1_q1.1(2).yml", 8) }}
 
     -
-        {{ indented_include("questions/math/qeek1_q1.1(1).yml", 8) }}
+        {{ indented_include("questions/math/qeek1_q1.1(3).yml", 8) }}
 
 completion_text: |
 
