@@ -1,27 +1,27 @@
 type: InlineMultiQuestion
-id: cvbnvzghnjbvxcfghj
+id: inliemulti
 value: 5
 prompt: |
 
-    # Q1.1(2) 次の数式の[イ]，[ウ]に⼊る適切な整数値を答えよ．(半角で入力)
-
+    # Q2.1 次の数式の[ア],[イ]に入る適切な整数値を答えよ(半角で入力)
+            
 question: |
-  
-    $\Large\sum_{k=1}^{n}(2k^{3}+3k^{2}+k)=\frac{1}{2}n(n+[[blank1]])^{2}(n+[[blank2]])$
-  
-answers:
 
+    $\Large\sum_{k=1}^{n}\frac{1}{(2k+1)(2k+3)} = \frac{n}{([[blank1]])(2n + [[blank2]])}$
+
+answers:
+            
     blank1:
         type: ShortAnswer
         width: 4em
         correct_answer:
-        - <plain>"1"
+        - <plain>"3"
         - type: float
-          value: 1
+          value: 3
     blank2:
         type: ShortAnswer
         width: 4em
         correct_answer:
-        - <plain>"2"
+        - <plain>"3"
         - type: float
-          value: 2
+          value: 3
