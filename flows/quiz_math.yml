@@ -61,9 +61,6 @@ groups:
     shuffle: False
     pages:
     -
-        {{ indented_include("questions/math/11seqence.yml", 8)}}
-        
-    -
         {{ indented_include("questions/multi-question-example.yml", 8) }}
 
     -
@@ -74,6 +71,9 @@ groups:
 
     -
         {{ indented_include("questions/math/week1_q1.1(3).yml", 8) }}
+
+    id: asdfasdf
+        {{ indented_include("questions/math/11seqence.yml", 8)}}
 
 completion_text: |
 
