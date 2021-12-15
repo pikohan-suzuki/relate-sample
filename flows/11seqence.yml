@@ -18,7 +18,7 @@ pages:
     id: seqence1
     content: |
 
-        ## タイトル
+        #### Page 1
         第$１$章
         
         積分
@@ -89,6 +89,8 @@ pages:
     id: seqence2
     content: |
 
+        #### Page 2
+
         数（スカラー）の足し算は順序によらないので，数列の和（$Σ$）に対して，以下の線形性
         
         が成り立つ．
@@ -139,6 +141,8 @@ pages:
     id: seqence3
     content: |
 
+        #### Page 3
+
         例題$1.1$数列の和の公式を用いて，次の数列の和を求めよ．
         
         $(2)\sum_{k—4}^{6}3^{2k—7}$
@@ -176,6 +180,8 @@ pages:
     type: Page
     id: seqence4
     content: |
+
+        #### Page 4
 
         コラム：代表的な数列
         
@@ -225,6 +231,8 @@ pages:
     id: seqence5
     content: |
 
+        #### Page 5
+        
         数列の和の極限
         
         数列${a_{n}}$は，実数の範囲で定義される関数$f(x)$とは異なり，その一般項を表す式は，
