@@ -1,0 +1,254 @@
+title: "5th"
+description: |
+
+    # Seqence
+
+rules:
+    access:
+    -
+        if_has_role: [student, ta, instructor]
+        permissions: [view]
+
+    grade_identifier: null
+
+pages:
+
+-
+    type: Page
+    id: seqence1
+    content: |
+
+        ### Page1
+
+        $1.4$部分積分法
+        
+        不定積分の部分積分法
+        
+        導関数の性質の$「$積の微分法$」$から，積分に関する公式が導かれる．積の微分法は，
+        
+        $f(x)g(x)=f(x)g(x)+f(x)g(x)$
+        
+        であった．両辺を積分すると，
+        
+        $f(x)g(x)—f(x)g(x)dx+f(x)g(x)dx$
+        
+        となるので，これの項を移項したものを，部分積分法$(integrationbyparts)$の公式という．
+        
+        例：積分$xcosxdx$を計算するときには，$f(x)f(x)g(x)dx——f(x)g(x)——x$，$g(x)f(x)g(x)dx_{c}osx$とみると，$(1.23)$
+        
+        $f(x)1$，$g(x)——cosxdx—sinx$であるから，部分積分法の式$(1.23)$から，—
+        
+        $xcosxdx=xsinx$
+        
+        $1sinxdx=xsinx+cosx+C$
+        
+        と計算できる（$C$は積分定数）．
+        
+        上の例のように，積の形の$2$つの関数のうち，一方を微分することで次数を下げる．部分
+        
+        積分法（微分）を繰り返せば，一方の関数はいずれ定数となり，積分する必要がなくなる．
+        
+        この結果，残った関数を積分すれば，全体の積分が完了することとなる．また，積分定数は，
+        
+        すべての積分が終わった段階でまとめて$C$とする習慣がある．
+        
+        例題$1.10$部分積分法を用いて，次の不定積分を求めよ．
+        
+        $xlnxdx$
+        
+        $(1)xe^{3x}dx$
+        
+        $(2)$
+        
+        解答以下，$C$は積分定数とする．
+        
+        $(1)(2)xlnxdxxe^{3x}dxx21_{x^{2}}vinculum1vinculum3^{e}^{3x}lnx$
+        
+        $113^{e}^{3x}21_{x}_{2}vinculumvinculumdxx1_{dx}vinculum91vinculum(3_{x^{2}lnx}\frac{1}{2}x1)e^{3x}14vinculumx^{2}CC$
+        
+        問$1.18$部分積分法を用いて，次の不定積分を求めよ．
+        
+        $(1)$
+        
+        $(2)$
+        
+        $(3)$
+        
+        $x^{2}exdx$
+        
+        $lnxdx$
+        
+        $(x+1)sinxdx$
+        
+        
+-
+    type: Page
+    id: seqence2
+    content: |
+
+        ### Page2
+
+        定積分の部分積分法
+        
+        不定積分の部分積分法$_{f(}ab(1.23)$から，$x)g(x)dx——f(x)g(x)f(x)g(x)—ba—f(x)g(x)dxabf(x)g(x)dxba$
+        
+        $(1.24)$
+        
+        となるので，定積分の部分積分法の公式が得られる．$abf(x)g(x)dx—f(x)g(x)ba—abf(x)g(x)dx$
+        
+        この定積分の計算は，先に学んだ不定積分のときと同様の方法で，定積分の計算をすすめれ
+        
+        ばよい．そして，不定積分の計算が終わるごとに，積分の上端の値と下端の値を代入して，
+        
+        それらの引き算を行えばよい．
+        
+        $0sinxdx$
+        
+        例：$0xcosxdx—xsinx0—$
+        
+        $—sin—0$
+        
+        $cosx0—cos—cos0—2$
+        
+        問$1.19$部分積分法を用いて，次の定積分を求めよ．
+        
+        $(3)12_{x^{2}}lnxdx$
+        
+        $(1)01_{xe^{3x}}dx$
+        
+        $(2)01_{x^{2}}e^{x}dx$
+        
+        ここまでの問題にも出てきたように，部分積分法は何度か繰り返して用いる場合がある．
+        
+        しかしながら，部分積分法を繰り返し用いていると，元の積分に戻る場合がある．このよう
+        
+        なときは，計算したい積分を$I$とおいて，$I$についての方程式を解くことで，不定積分の結
+        
+        果の式や定積分の値を求める．
+        
+        例題$1.11$部分積分法を用いて，次の積分を求めよ．
+        
+        $(1)e^{ax}sinbxdx$（$a$，$b$は定数）
+        
+        $(2)01vinculumvinculumvinculum1vinculum—x^{2}dx$
+        
+        解答以下，与式を$I$とおく．
+        
+        $(1)Iavinculum1_{e^{ax}}sinbx$
+        
+        $avinculum1_{e^{ax}}bcosbxdx$
+        
+        $avinculum1_{ea^{x}}sinbx$
+        
+        $\frac{1}{a^{2}}e^{ax}bcosbx$
+        
+        $\frac{1}{a^{2}}e^{ax}(b^{2}sinbx)dx$
+        
+        $——avinculum1_{ea}_{x}sinbx——\frac{b}{a^{2}}ea^{x}cosbx——a^{2}b^{2}vinculumI$
+        
+        
+-
+    type: Page
+    id: seqence3
+    content: |
+
+        ### Page3
+
+        上式を$I$について解くと，以下のようになる（$C$は積分定数）．
+        
+        $1+ab_{2}vinculum2I=\frac{e^{ax}}{a^{2}}(asinbxbcosbx)$
+        
+        $I=a^{2}+b^{2}vinculumea^{x}(asinbxbcosbx)+C$
+        
+        $(2)I——0x1vinculumvinculumvinculumvinculumvinculumvinculum1—x^{2}vinculumvinculum1—x^{2}vinculum1dx10——0011_{x}vinculumvinculumvinculum1—x^{2}dxvinculumvinculumvinculumvinculumvinculum1—vinculum—x—x2_{—}dxsin^{—1}x—0—101—1+1—x^{2}vinculumIvinculumvinculumvinculum1—x^{2}vinculum—vinculum2Idx$
+        
+        上式を$I$について解いて，$I——vinculum4$となる．
+        
+        問$1.20$部分積分法を用いて，次の不定積分を求めよ．
+        
+        $vinculumvinculum$
+        
+        $e^{ax}cosbxdx$
+        
+        $vinculumvinculumvinculum4vinculum—x^{2}dx$
+        
+        $vinculumvinculum1+x^{2}dx$
+        
+        $(1)$
+        
+        $(2)$
+        
+        $(3)$
+        
+        また，部分積分法を繰り返す回数が多い場合には，以下のように計算すると良い．
+        
+        例題$1.12$部分積分法を用いて，$n3$の場合に次の積分を求めよ．
+        
+        $(1)(lnx)dxn$
+        
+        $(2)0vinculum2cos^{n}xdx$
+        
+        解答$(1)I_{n}—$以下，与式を$I_{n}$とおく．$—x(lnx)n—xvinculumnx(lnx)n—1dx——x(lnx)n—nI_{n—}_{1}$
+        
+        と$_{I_{3}}—_{x(lnx)}I_{0_{—}}x—$より，求める不定積分は，$3—3I_{2}—x(lnx)3—3{x(lnx)2—2I_{1}}$
+        
+        $—x(lnx)_{3}—3{x(lnx)—2xlnx—I_{0})}=x(lnx)3—3x(lnx)+6xlnx22(—6x+C$
+        
+        $(2)I_{n}—0vinculum2cos^{n—}^{1}xcosxdx$
+        
+        より，$I_{n}——(n——cos—^{n—1}—1)_{n}_{0}^{2}cos^{n—}^{2}x(1vinculumxn——vinculumsinx1_{I_{n—^{2}}}0_{$となり$}vinculum2———0vinculum2cos^{2}x)dx—(n(n—I_{1}—1$と合わせて，$I_{3}——1)cos^{n—2}x(————sinx)_{—}sinxdx1)(I_{n—}_{2}—_{331}2vinculumI_{I})n——2vinculum$である．
+        
+        
+-
+    type: Page
+    id: seqence4
+    content: |
+
+        ### Page4
+
+        一般の自然数$n$に対する例題$1.12(2)$の定積分は，ワリスの公式として知られている．
+        
+        ワリスの公式$(Wallisformula)・0vinculum2sin^{n}xdx—n—1n—1n—3vinculumvinculumn\frac{n—3}{n—2}vinculum\frac{n—5}{n—4}n—5vinculum$
+        
+        $\frac{1}{2}\frac{2}{3}1vinculum2(n:$奇数$)(n:$偶数)
+        
+        $nn—1nn—2—3n—n—^{4}5$
+        
+        $vinculumvinculumvinculum$
+        
+        $・0vinculum2cos^{n}xdx—nn—1nn—2—3n—4n—5$
+        
+        $\frac{1}{2}\frac{2}{3}1vinculum2(n:$奇数$)(n:$偶数)
+        
+        $vinculumnnvinculum—2nvinculum—4$
+        
+        例題$1.13$次の定積分の値を求めよ．
+        
+        $(2)0vinculum2sin^{3}xcos^{2}xdx$
+        
+        $(1)0vinculum2sin^{4}xdx$
+        
+        解答$(1)(2)($式与$0vinculum2sin^{4})—^{xdx}0vinculum2sin^{3}x(1—sin^{2}x)dx——\frac{3}{4}\frac{1}{2}vinculum2——vinculum316—0vinculum2sin^{3}xdx—0vinculum2sin^{5}xdx$
+        
+        $\frac{2}{3}1\frac{4}{5}\frac{2}{3}11\frac{4}{5}\frac{2}{3}1\frac{2}{15}$
+        
+        問$1.21$次の定積分の値を求めよ．
+        
+        $(2)0vinculum2cos^{6}xsin^{2}xdx$
+        
+        $(1)0vinculum2sin^{7}xdx$
+        
+        $(3)0vinculum2\frac{sin^{4}x}{1+tan^{2}x}dx$
+        
+        ている．ワリスの公式は，$I_{1}$もし，積分区間が$[0,—0vinculum2cosxdx]$や$[——vinculum20,vinculum2_{2}sinxdx—1$や$I_{0}—_{$これらの積分区間に対する$}vinculum]$である場合には，$—0vinculum21dx——2vinculum$を起点にし
+        
+        $I_{1}$や$I_{0}$の値を計算すれば，同様にして，$0sin^{n}xdx$や$0cos^{n}xdx$，$—vinculum2vinculum2sin^{n}xdx$や
+        
+        $vinculum2cos^{n}xdx$の値も知ることができる．（これらの積分に対する漸化式を考えてみよ．）
+        
+        $—vinculum2$
+        
+        
+completion_text: |
+
+    # 説明は終了です。

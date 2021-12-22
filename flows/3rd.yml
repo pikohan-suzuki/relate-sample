@@ -1,0 +1,344 @@
+title: "3rd"
+description: |
+
+    # Seqence
+
+rules:
+    access:
+    -
+        if_has_role: [student, ta, instructor]
+        permissions: [view]
+
+    grade_identifier: null
+
+pages:
+
+-
+    type: Page
+    id: seqence1
+    content: |
+
+        ### Page1
+
+        $1.2.2$微分積分学の基本定理
+        
+        ここで学習する微分積分学の定理は，微分と積分を結びつける重要な定理である．すでに
+        
+        学んだ定積分の計算は，数列の和そのものが直接計算できないときには，その極限を求める
+        
+        ことができない．この問題を解決したのが，微分積分学の定理であり，定積分をその定義と
+        
+        は異なる方法で計算することが可能となる．
+        
+        不定積分
+        
+        関数$f(x)$に対して，
+        
+        $(1.8)$
+        
+        $\frac{d}{dx}F(x)—f(x)—$
+        
+        の関係が成り立つ関数$F(x)$を関数$f(x)$の原始関数$(primitivefunction;antiderivative)$
+        
+        と呼ぶ．ただし，定数は微分するとゼロとなったので，任意の定数分だけ原始関数は存在す
+        
+        る．つまり，原始関数は無数に存在する．
+        
+        上の式$(1.8)$を既知の関数$f(x)$について表現するために，定積分と同様の記号を用いて，
+        
+        $(1.9)$
+        
+        $f(x)dx=F(x)+C$（$C$：任意定数）
+        
+        のように表し，これを関数$f(x)$の不定積分$(indefiniteintegral)$と呼び，$C$を積分定数
+        
+        $(constantofintegration)$と呼ぶ．原始関数$F(x)$を求めることを，$「x$について積分する
+        
+        $(integration;antidifferentiation)」$という．例：$(x^{2})—2x$であったから，$2xdx=x^{2}+C$である．
+        
+        導関数の線形性から，直ちに，不定積分の線形性が成り立つ．
+        
+        不定積分の線形性
+        
+        $(1)cf(x)dxc$
+        
+        $f(x)dx$（$c$は定数）
+        
+        $(2){f(x)g(x)}dx=f(x)dx$
+        
+        $g(x)dx$（複号同順）
+        
+        問$1.8$次の不定積分を求めよ．
+        
+        $6xdx$
+        
+        $x——vinculumvinculumvinculumxdxvinculum$
+        
+        $(1)$
+        
+        $(2)$
+        
+        $(3)$
+        
+        $2vinculum3vinculumvinculumvinculumxdxvinculum$
+        
+        
+-
+    type: Page
+    id: seqence2
+    content: |
+
+        ### Page2
+
+        微分積分学の基本定理囲まれた部分の面積を表す関数を$S(x)—$区間$[a,b]$で連続な関数$f(x)$を考え，区間$[a,x]$において曲線$y—axf(t)dt$と表す．このとき，リーマン和の定義$——f(x)$と$x$軸とで
+        
+        式$(1.3)$から，$x$が十分小さいとき，$vinculumS(x_{i})—S(x_{i}_{—_{1}})xf()$，$cix_{i—1}cix_{i}$
+        
+        である．各式の$x_{i—1}$を変数$x$に置き換え，両辺について$\sum_{ }^{ }x=0S(x+vinculumx)xS(x)——\sum_{ }^{ }x=0f(c)——f(x)$，$x—x0$の極限を考えると，$cx+x$
+        
+        となり，左辺は導関数の定義式であり，右辺は関数$f(x)$そのものとなる．従って，
+        
+        $S(x)f(x)$の関係が成り立つので，定積分の値は，関数$f(x)$の原始関数の$1$つの値であ
+        
+        る．つまり，任意定数を$C$として，原始関数は
+        
+        $F(x)S(x)C$
+        
+        $axf(t)dtC$
+        
+        と表される．この関係を述べたものが，以下の微分積分学の定理である．
+        
+        微分積分学の定理$(TheFundamentalTheoremofCalculus)$
+        
+        区間$[a,b]$で定義された連続関数$f(x)$の任意の原始関数を$F(x)$とするとき，$abf(x)dx——F(b)—F(a)$
+        
+        が成り立つ．
+        
+        つまり，定積分の計算を定義通りに行わずに，$f(x)$の原始関数$F(x)$を求め，これに$xb$
+        
+        を代入した値から，$x$計算過程を記述するために，記号$a$を代入した値を引くことで，定積分の計算を実行するのである．$F(x)ba$を用い，$F(b)—F(a)$を表す．
+        
+        例：次のように，定積分は計算される．
+        
+        $・24(2x+1)dx=x^{2}+x24(4^{2}+4)(2+2)220614$
+        
+        $・133x^{2}dx——x^{3}13——3^{3}1—3—27126$
+        
+        $(3)25(—_{x^{2}}+36)dx$
+        
+        問$1.9(1)01{(x+1)$次の定積分を求めよ．$2—1}dx$
+        
+        $(2)01(x^{2}+3)dx$
+        
+        
+-
+    type: Page
+    id: seqence3
+    content: |
+
+        ### Page3
+
+        $EXERCISESFORSECTION1.2$
+        
+        $Ex1.2.1)WeconsidertheRiemannsumoff(x)——xvinculum1inaninterval[1,4].$
+        
+        $(a)Whenwedivide[1,4]into6subintervals,findthewidthofonesubinterval.$
+        
+        $(b)Findthepointsx_{i}(i01,,,6).$
+        
+        $(c)EvaluatetheleftRiemannsumoff(x)inaninterval[1,4].$
+        
+        $(d)EvaluatetherightRiemannsumoff(x)inaninterval[1,4].$
+        
+        $(e)EvaluatethemidpointRiemannsumoff(x)inaninterval[1,4].$
+        
+        $Ex1.2.2)Usethe\sum_{ }^{ }itofRiemannsumtofindthefollowingintegrals.$
+        
+        $(c)12(—x^{2}+3x—2)dx$
+        
+        $(b)01(—x^{2}+x)dx$
+        
+        $(a)01(—x+1)dx$
+        
+        $(d)f(x)—xvinculumvinculumvinculumxvinculum$
+        
+        $(h)f(x)——xvinculum1$
+        
+        $(l)f(x)—csc^{2}x$
+        
+        $Ex1.2.3)Findtheprimitivefunctionsofthefollowing_{f(}(a)(e)f(x)(i)f(x)f(x)—5x_{1}————sinxvinculum33x^{2}vinculumvinculum4vinculumvinculum(b)f(x)—x^{99}(f)f(x)—3x^{2}(j)f(x)——cosxvinculumvinculumvinculumvinculum(c)f(x)(g)f(x)(k)functions._{x_{x}}x)————sec^{2}2^{x}2vinculumvinculum1vinculumvinculumvinculum$
+        
+        $Ex1.2.4)Usetheresultofex.1.2.3)toevaluateeachintegral.$
+        
+        $(d)49_{x}vinculumvinculumvinculumxdxvinculum$
+        
+        $(a)235x^{4}dx$
+        
+        $(b)01_{x^{99}}dx$
+        
+        $(c)49812xvinculumvinculum1vinculumvinculumvinculumdx$
+        
+        $(g)132^{x}dx$
+        
+        $(f)—2783x^{2}dxvinculumvinculumvinculumvinculum$
+        
+        $(h)131_{dx}xvinculum$
+        
+        $(e)—27125vinculum33x^{2}vinculumvinculum1vinculumvinculumdx$
+        
+        $vinculum3csc^{2}xdx$
+        
+        $vinculum2cosxdx$
+        
+        $vinculum2sinxdx$
+        
+        $(i)$
+        
+        $(j)$
+        
+        $(k)vinculum3sec^{2}xdx$
+        
+        $(l)$
+        
+        $vinculum4$
+        
+        $vinculum4$
+        
+        $vinculum4$
+        
+        $vinculum4$
+        
+        $ANSWERS$
+        
+        $(b)x_{0}——1,x_{1}——vinculum2^{,x_{2}}3——2,x_{3}——2^{,x_{4}}5vinculum——3,x_{5}——72^{,x}^{6}vinculum——4$
+        
+        $Ex1.2.1)_{=}(a)x\frac{4—1}{6}—\frac{1}{2}—$
+        
+        $(c)Σi—6_{1}f(x_{i—}_{1})x=140223vinculum(1.59)(ThisisthesameasupperRiemannsuminthiscase.)$
+        
+        $(d)Σi—61f(xi^{)}x=\frac{341}{280}(1.22)(ThisisthesameaslowerRiemannsuminthiscase.)$
+        
+        
+-
+    type: Page
+    id: seqence4
+    content: |
+
+        ### Page4
+
+        $(e)\sum_{i—1}^{6}f(^{x}i—_{1}_{2}vinculum+xi)x=\frac{186072}{135135}(1.38)(Theactualareavalueisln41386.).$
+        
+        $Ex1.2.2)$
+        
+        $(a)01(x1)dxn—\sum_{ }^{ }Σi—1nnivinculum1n1vinculumn—\sum_{ }^{ }n^{2}121vinculumn(nvinculum1)121$
+        
+        $(b)01(x^{2}+x)dx=n\sum_{ }^{ }Σi—1nni_{2}2vinculum+nni1vinculumvinculumn\sum_{ }^{ }n^{3}116vinculumn(n+)(2n+)+vinculum11n^{2}1vinculumvinculum21n(n+1)vinculumvinculum16vinculum$
+        
+        $vinculum16$
+        
+        $(c)12(x^{2}3x2)dxn—\sum_{ }^{ }Σi—1n1ni2vinculum31ni2vinculumn1$
+        
+        $Ex1.2.3)Let_{100}beanarbitraryconstant.(a)F(x)—x^{5}(b)F(x)=vinculumC_{+C}1x^{100}+Cistheprimitivefunctionbecause(c)F(x)—vinculumvinculumvinculumx+Cvinculum\frac{d}{dx}(x^{5}+C)—5x4_{._{=}}(d)F(x)\frac{2}{5}x^{2}vinculumvinculumvinculumx+Cvinculum$
+        
+        $(e)F(x)—3x+Cvinculumvinculumvinculumvinculum$
+        
+        $(g)F(x)—\frac{2^{x}}{ln2}+C$
+        
+        $(f)F(x)=\frac{3}{5}x3x^{2}+Cvinculumvinculumvinculumvinculum$
+        
+        $(h)F(x)=ln|x|+C$
+        
+        $(i)F(x)=cosx+C$
+        
+        $(j)F(x)sinx+C$
+        
+        $(l)F(x)=cotx+C$
+        
+        $(k)F(x)=tanx+C$
+        
+        $[Tocheck,youcandifferentiateeachprimitivefunction.]$
+        
+        $Ex1.2.4)UsingtheFundamentalTheoremofCalculustoevaluateeach_{x_{x}}(a)(c)(e)249—271258135x_{1_{1}_{dx}}vinculum2vinculum33x^{2}vinculumvinculum4_{x}vinculumvinculumvinculumvinculumdx—_{dx}x^{5}vinculumvinculum—_{—}———vinculumvinculumvinculumxvinculum233xvinculumvinculumvinculumvinculum—_{49}_{211}—81125—27——2——8(b)(d)(f)04—2719_{x}8x^{99}dx—vinculum3x^{2}dx—vinculumvinculumvinculumvinculumvinculumxdx—vinculumvinculum———100vinculum1_{5}_{x^{100}}vinculum2_{3}5vinculumdefiniteintegral.2vinculumvinculum3x^{2}vinculumvinculumvinculumxvinculumvinculumvinculum1_{4}_{—}09—8—27——^{100}vinculumvinculum4221——5165$
+        
+        $(h)131_{dx}xvinculum—ln|x|13—ln3$
+        
+        $(j)$
+        
+        $vinculum4vinculum2cosxdx——sinxvinculumvinculum24—=1vinculumvinculumvinculum1vinculum2vinculum$
+        
+        $(g)(i)(k)1_{3}vinculum43vinculumvinculum22dx—sec^{2}xdx—sinxdxx——=ln2_{tanx}vinculum—2xcosx13——\frac{6}{ln2}vinculum324_{—}vinculumvinculum———vinculumvinculumvinculumvinculumvinculum3vinculumvinculum1vinculum2vinculum—1$
+        
+        $(l)$
+        
+        $vinculum4$
+        
+        $vinculum4$
+        
+        $vinculum4vinculum3csc^{2}xdx—=cotxvinculumvinculum43—1—vinculumvinculumvinculum1vinculum3vinculum$
+        
+        
+-
+    type: Page
+    id: seqence5
+    content: |
+
+        ### Page5
+
+        $1.3$いろいろな関数の不定積分
+        
+        前節で，不定積分が微分の逆演算であることを学んだ．従って，初等関数の導関数の結果
+        
+        は，積分の公式として整理し直すことができる．本節では，このようにして得られる関数の
+        
+        不定積分の公式を学習する．
+        
+        べき関数の不定積分
+        
+        べき関数$x$の導関数の公式は$(x)——x—1$であったので，
+        
+        である．この公式には，である．一方で，の導関数の公式$(ln|x|)1x—^{$でなければならないことに注意せよ．$}——xdx=1vinculum0_{$から，$}$の場合も含まれる．すなわち，$vinculum1+1^{x}—+11$のときのべき関数の原始関数は対数関数となり，$+C$（$C$は積分定数）$x^{0}dx_{1}——$のときは対数関数$1dx=x+C(1.10)$
+        
+        $(1.11)$
+        
+        $vinculumx1_{dx}=ln|x|+C$（$C$は積分定数）
+        
+        である．
+        
+        例題$1.5$次の不定積分を求めよ．
+        
+        $3x^{2}——xvinculum1dx$
+        
+        $vinculumvinculumvinculumxdxvinculum$
+        
+        $(1)$
+        
+        $(2)$
+        
+        解答$(1)$
+        
+        $(2)$
+        
+        $vinculumvinculum3x^{2}vinculumxdxvinculum————vinculumxvinculum1dxx_{—}=3vinculum221—dx(3x^{2}vinculum13vinculum\frac{1}{2}+1_{ln|x}x^{3}1_{—}—_{—}—xx—1vinculum1+1)dx—|+C—C—3\frac{2}{3}x—x_{x}dx2_{3}—^{—}vinculumvinculumvinculumx—vinculum—ln|x|+C$（$C$は積分定数）$C_{x}_{—1}_{dx}$（$C$は積分定数）
+        
+        問$1.10$次の不定積分を求めよ．
+        
+        $2dx$
+        
+        $0dx$
+        
+        $(1)$
+        
+        $(2)$
+        
+        $(3)$
+        
+        $(4)$
+        
+        $vinculum3x^{2}+4xvinculumvinculumvinculumvinculumxvinculumvinculumvinculumvinculumdx$
+        
+        $x^{5}+\frac{1}{x^{5}}dx$
+        
+        
+completion_text: |
+
+    # 説明は終了です。

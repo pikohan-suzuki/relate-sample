@@ -1,0 +1,208 @@
+title: "6th"
+description: |
+
+    # Seqence
+
+rules:
+    access:
+    -
+        if_has_role: [student, ta, instructor]
+        permissions: [view]
+
+    grade_identifier: null
+
+pages:
+
+-
+    type: Page
+    id: seqence1
+    content: |
+
+        ### Page1
+
+        $1.5$置換積分法
+        
+        不定積分の置換積分法
+        
+        導関数を求める手法の$1$つとして，合成関数の微分法$」「$があった．この微分法を用いると，
+        
+        少し複雑な関数の式を，別の文字で置き換えることで積分することが可能となる．合成関数
+        
+        の微分法は，
+        
+        $(fg)(x)——f(g(x))g(x)$
+        
+        であった．両辺を$x$について積分すると，
+        
+        $(fg)(x)——f(g(x))g(x)dx$
+        
+        である．ここで，$u—g(x)$とおくと左辺は$f(u)$とも書くことができる．従って，—
+        
+        と表すことができる．左辺と右辺を入れ替え，被積分関数を$f(g(x))f(u)——f(g(x))g(x)dx——f(u)$，その原始関数
+        
+        を$F(u)$と書き直したものを，置換積分法$(integrationbysubstitution)$の公式という．
+        
+        $f(g(x))g(x)dx—f(u)du—F(u)+C—F(g(x))+C$
+        
+        $(1.25)$
+        
+        ただし，$C$は積分定数である．また，$1.3$節で学習した$f(ax+b)$の積分も，置換積分の特別
+        
+        な場合である．
+        
+        例題$1.14$次の不定積分を求めよ．
+        
+        $(2)$
+        
+        $(1)3x^{2}(x^{3}—1)dx4$
+        
+        $2x^{2}+2x+1^{dx}vinculum1$
+        
+        解答以下，$C$は積分定数とする．
+        
+        $(1)3x^{2}(x^{3}1)dx4$
+        
+        $(x^{3}1)(x^{3}1)dx4\frac{1}{5}(x^{3}1)5C$
+        
+        $(2)($式与$)=vinculum4x^{2}+4x+2^{dx}2=vinculum(2x+1)(2x+1_{+1}_{dx}2)=tan^{—1}(2x+1)+C$
+        
+        問$1.22$次の不定積分を求めよ．
+        
+        $(lnx)vinculumx3dx$
+        
+        $tan^{5}xsec^{2}xdx$
+        
+        $(1)$
+        
+        $(2)$
+        
+        $(3)$
+        
+        $vinculumvinculumvinculum2x+3dx$
+        
+        $vinculumvinculumx^{2}+3x+1$
+        
+        
+-
+    type: Page
+    id: seqence2
+    content: |
+
+        ### Page2
+
+        な場合以外でも，置き換えに用いる式$u$上で扱った問題では，被積分関数の一部に$g(x)$にあたるものが存在している．このよう$——g(x)$を利用することで，置換積分を実行するこ
+        
+        とができる場合がある．このような場合は，形式的に$du—g(x)dx$と置き換えて考えると
+        
+        分かりやすい．微分すると，$2_{d}$例えば，$dxvinculum——sec^{2}$例題$1.14(2)$において，$x+1=tan$であるから，形式的に$dx—2—2vinculum1sec^{2}$と置き換えると，$d$と考えて，以下のよ両辺をで
+        
+        うにも置換積分を実行できる．
+        
+        $vinculum2x^{2}+2x+1^{dx}1——(2x+1)+1^{dx}vinculum222sec^{2}d$
+        
+        $1d$
+        
+        $tan^{—1}(2x1)C$
+        
+        $vinculum2$
+        
+        $vinculumtan^{2}+1$
+        
+        例題$1.15$次の不定積分を求めよ．
+        
+        $x^{2}vinculumvinculumvinculumx—2dxvinculum$
+        
+        $(2)$
+        
+        $(1)vinculumvinculumvinculumvinculum4—x^{2}vinculum1dx$
+        
+        解答以下，$C$は積分定数とする．
+        
+        $(1)x2sin$と置き換えると，$^{dx}dvinculum——2cos$であるから，
+        
+        $Csin^{—1}\frac{x}{2}C$
+        
+        $(2)u($式与$——_{—}——x)2$と置き換えると，$^{du}—\frac{1}{4—4sin^{2}}vinculumvinculumvinculumvinculum2cosd_{1}dxvinculum—$であるから，$1d$
+        
+        $($式与$)=(u+2)2vinculumvinculumvinculumudu=vinculum(u^{2}+4u^{2}+4u2)d_{u}\frac{5}{5}\frac{3}{3}\frac{1}{1}$
+        
+        $=vinculum72u^{2}+\frac{7}{7}vinculum85u^{2}+\frac{5}{5}vinculum83u^{2}+C=\frac{3}{3}105vinculum2u2(15u^{2}+84u+140)+C\frac{3}{3}$
+        
+        $=\frac{2}{105}(x2\frac{3}{)^{2}{}15x(2)+84x2(2)+140}+C$
+        
+        $=105vinculum2(15x^{2}+24x+32)(x2)xvinculumvinculumvinculumvinculum—2+C$
+        
+        問$1.23$次の不定積分を求めよ．
+        
+        $(1)$
+        
+        $(2)$
+        
+        $(3)vinculum$
+        
+        $x(2x+1)dx4$
+        
+        $vinculumvinculumvinculumvinculumsin1—x^{2}——1xdx$
+        
+        $(x—2)vinculumx^{2}4dx$
+        
+        
+-
+    type: Page
+    id: seqence3
+    content: |
+
+        ### Page3
+
+        定積分の置換積分法
+        
+        定積分の場合には，置き換えた文字を元に戻して，積分区間の上端の値や下端の値を代入
+        
+        するのではなく，置換積分を考えるときに，積分区間自体も置き換えた文字に関する区間にしておく．すなわち，$u——g(x)$とおくとき，$——g(a)$と$——g(b)$の値を求めておき，
+        
+        $(1.26)$
+        
+        $abf(g(x))g(x)dx—$
+        
+        $f(u)du—F(u)—F()—F()$
+        
+        のように積分を実行する．
+        
+        例題$1.16$次の定積分の値を求めよ．
+        
+        $(2)23_{x^{2}}vinculumvinculumvinculumxvinculum—2dx$
+        
+        $(1)02vinculumvinculumvinculumvinculum4—x^{2}vinculum1dx$
+        
+        $0_{$，}
+        
+        解答$(1)x2sin$と置き換えると，$^{dx}dvinculum——2cos$であり，$x—0$のとき
+        
+        $x2$のとき$——vinculum2$であるから，
+        
+        $(2)u($式与$——_{—}——x)——2$と置き換えると，$\frac{du}{dx}—10vinculum2vinculumvinculumvinculumvinculum4—4sin^{2}vinculum12cosd_{$であり，$}———0vinculum21dx——2$のとき$u02vinculum——vinculum2_{—}0$で，$x3$の
+        
+        とき$u1$であるから，
+        
+        $($与式$)=01(u+2)2vinculumvinculumvinculumudu=vinculum01(u^{2}+4u^{2}+4u2)du\frac{5}{5}\frac{3}{3}\frac{1}{1}$
+        
+        $\frac{2}{7}u^{2}+\frac{8}{5}u^{2}+\frac{8}{3}u^{2}\frac{7}{7}\frac{5}{5}\frac{3}{3}10=\frac{2}{7}+\frac{8}{5}+\frac{8}{3}=\frac{478}{105}$
+        
+        注）定積分は，閉区間$[a,b]$で定義された連続関数$f(x)$に対して，定義されるもの
+        
+        である．$(2)$の被積分関数は，積分区間の端でも定義されるが，$(1)$の被積分関数は，
+        
+        $x2$では定義されない．しかしながら，この値の近くまで連続であるので，計算上
+        
+        は支障をきたさない．このような積分を広義積分$(improperintegral)$と呼び，厳密に$vinculum$
+        
+        は，極限を用いて積分を定義する．上の例題では，以下のように議論する．
+        
+        $2vinculum$
+        
+        問$1.24(1)0_{1}02(xvinculumvinculumvinculum$次の定積分の値を求めよ．$vinculum4—x22_{4}vinculumvinculum1x^{2}—2)dx—dx—\sum_{ }^{ }—+002—(2)4—x1_{1}vinculumvinculumvinculum2vinculumvinculum(lnx)vinculumdx—x—3\sum_{ }^{ }—+00dx2—1d_{(3)}——vinculum\sum_{ }^{ }—+001vinculumvinculumvinculumvinculumvinculumsin1—x^{2}02———1——xdx\sum_{ }^{ }—+02vinculum———$
+        
+        
+completion_text: |
+
+    # 説明は終了です。

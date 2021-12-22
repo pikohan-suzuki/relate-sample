@@ -1,0 +1,374 @@
+title: "4th"
+description: |
+
+    # Seqence
+
+rules:
+    access:
+    -
+        if_has_role: [student, ta, instructor]
+        permissions: [view]
+
+    grade_identifier: null
+
+pages:
+
+-
+    type: Page
+    id: seqence1
+    content: |
+
+        ### Page1
+
+        指数関数の不定積分
+        
+        指数関数の導関数の公式は，$_{(}e^{x})—e^{x}$，$(a^{x})—a^{x}lna$
+        
+        （$_{a}0_{$，$}a1$）であったので，$C$を積分定数として，
+        
+        $(1.12)$
+        
+        $e^{x}dx=e^{x}+C$，$a^{x}dx—\frac{a^{x}}{lna}+C$
+        
+        である．
+        
+        例題$1.6$次の不定積分を求めよ．
+        
+        $2^{x}dx$
+        
+        $(1)e2x+1_{dx}$
+        
+        $(2)$
+        
+        解答以下，$C$は積分定数とする．
+        
+        $(1)e^{2x+1}dxe$
+        
+        $(e)dx2xe\frac{(}{ln(e^{2})}e)2xCvinculum21_{e}_{2x+1}C$
+        
+        $(2)2^{x}dx—\frac{2^{x}}{ln2}+C$
+        
+        問$1.11$次の不定積分を求めよ．
+        
+        $5^{x}dx$
+        
+        $2^{3x}dx$
+        
+        $e—xdx$
+        
+        $e^{3x+2}dx$
+        
+        $(1)$
+        
+        $(2)$
+        
+        $(3)$
+        
+        $(4)$
+        
+        実は，例題$1.6(1)$のタイプの積分は，他の関数にも拡張することができる．ある関数$f(x)$
+        
+        の原始関数$F(x)$が分かっているとき，関数$f(ax+b)$の原始関数は
+        
+        $(1.13)$
+        
+        $f(ax+b)dx=a1vinculumF(ax+b)+C$
+        
+        で与えられる．ただし，$a$，$b$は定数とする（$a=0$）これは$u=ax+b$とおいて，合成関．
+        
+        数の微分法により，次のように確かめられる．
+        
+        ${F(ax+b)}=F(u)\frac{du}{dx}=F(ax+b)a=af(ax+b)$
+        
+        問$1.12$次の不定積分を求めよ．
+        
+        $vinculumvinculum$
+        
+        $3vinculumvinculum4x+1dx$
+        
+        $(1)$
+        
+        $(2)$
+        
+        $(3)$
+        
+        $(2x+4)dx5$
+        
+        $vinculum7x1+2dx$
+        
+        
+-
+    type: Page
+    id: seqence2
+    content: |
+
+        ### Page2
+
+        三角関数の不定積分
+        
+        $(secx)(cscx)———secxtanxcscxcotx$
+        
+        三角関数の導関数の公式は，$(cosx)(sinx)———cosxsinx(tanx)—(cotx)——sec^{2}xcsc^{2}x$
+        
+        であったので，$C$を積分定数として，
+        
+        $(1.14)$
+        
+        $sec^{2}xdxcosxdx_{=}=sinx+Ctanx+C$，，$sinxdx=_{=}cosx+Ccsc^{2}xdx—cotx+C$
+        
+        $(1.15)$
+        
+        $secxtanxdx=secx+C$，$cscxcotxdx=—cscx+C$
+        
+        $(1.16)$
+        
+        である．
+        
+        問$1.13$次の不定積分を求めよ．
+        
+        $2cos3xdx$
+        
+        $(1)$
+        
+        $(2)$
+        
+        $(3)$
+        
+        $sin(2x+3)dx$
+        
+        $vinculumsin^{2}(2x+3)^{dx}1$
+        
+        $(4)$
+        
+        $(5)$
+        
+        $(6)$
+        
+        $sec^{2}(5x+2)dx$
+        
+        $vinculumtanxcscxdx$
+        
+        $\frac{sinx}{cos^{2}x}dx$
+        
+        例題$1.7$次の不定積分を求めよ．
+        
+        $(1)$
+        
+        $(2)$
+        
+        $vinculumsin^{3}x—1_{dx}sin^{2}x—$
+        
+        $\frac{1+sinx}{cos^{2}x}dx$
+        
+        解答以下，$C$は積分定数とする．
+        
+        $csc^{2}xdx=cosx+cotx+C$
+        
+        $(1)$
+        
+        $vinculumsin^{3}x—1_{dx}sin^{2}x—=sinxdx$
+        
+        $(2)\frac{1+sinx}{cos^{2}x}dx=sec^{2}xdx+secxtanxdx=tanx+secx+C$
+        
+        問$1.14$次の不定積分を求めよ．
+        
+        $vinculumsecxdx$
+        
+        $(1)$
+        
+        $(2)$
+        
+        $(3)$
+        
+        $(1+cotx)dx2$
+        
+        $cosx$
+        
+        $vinculumsin^{2}_{sin^{2}}cosxx+_{x}dx$
+        
+        
+-
+    type: Page
+    id: seqence3
+    content: |
+
+        ### Page3
+
+        分数式の不定積分
+        
+        逆三角関数の導関数の公式は，
+        
+        $(sin^{—1}x)——vinculumvinculumvinculumvinculum1—vinculum—x^{2}1,(tan^{—1}x)——1+x^{2}vinculum1,(sec^{—1}x)——|x|vinculumvinculumvinculumvinculum1x^{2}—1vinculum—$
+        
+        であったので，$C$を積分定数として，以下の積分公式が得られる．
+        
+        $(1.17)$
+        
+        $vinculumvinculumvinculumvinculum1—x^{2}vinculum1dx=sin—1x+C$
+        
+        $(1.18)$
+        
+        $\frac{1}{1+x^{2}}dx=tan^{—1}x+C$
+        
+        $(1.19)$
+        
+        $vinculumxvinculumvinculumvinculumx^{2}—1vinculum1dx=sec^{—1}|x|+C$
+        
+        公式$(1.17)$，$1.18)$は，$($合成関数の微分法により，拡張することができ，同様のタイプの分数
+        
+        式も含めて，以下に示す．
+        
+        $(1.20)$
+        
+        $vinculumvinculumvinculumvinculuma^{2}vinculum1—x^{2}dx=sin^{—1}axvinculum+C$（$a0$は定数）
+        
+        $(1.21)$
+        
+        $\frac{1}{x^{2}+a^{2}}dx=avinculum1tan^{—1x}+Cavinculum$（$_{a}0$は定数）
+        
+        $(1.22)$
+        
+        $vinculumvinculumvinculumvinculumx^{2}+Avinculum1dx=lnx+vinculumvinculumvinculumvinculumx^{2}+A+Cvinculumvinculum$（$A0$は定数）
+        
+        問$1.15$右辺を微分することで，上の不定積分の公式を確認せよ．
+        
+        例題$1.8$次の不定積分を求めよ．
+        
+        $(1)$
+        
+        $(2)$
+        
+        $\frac{1+x+x^{3}}{1+x^{2}}dx$
+        
+        $vinculumvinculumvinculumvinculum4vinculum—1_{4x^{2}}dx$
+        
+        解答$(1)vinculumvinculumvinculumvinculum4vinculum—1_{4x}_{2}dx=\frac{1}{21—x^{2}}dx=\frac{1}{2}sin^{—1}x+C$（$C$は積分定数）$vinculumvinculumvinculumvinculum$
+        
+        $(2)\frac{1+x+x^{3}}{1+x^{2}}dx$
+        
+        $\frac{1}{1+x^{2}}dx+xdx=tan^{—1}x+\frac{1}{2}x^{2}+C$（$C$は積分定数）
+        
+        問$1.16$次の不定積分を求めよ．$vinculum$
+        
+        $vinculumvinculum$
+        
+        $(1)$
+        
+        $(2)$
+        
+        $(3)$
+        
+        $vinculumvinculumvinculum3—5_{x^{2}}dx$
+        
+        $1+x22+x^{5}vinculum1+x^{2}vinculum1vinculumdx$
+        
+        $vinculumvinculumvinculum\frac{5}{3+x^{2}}dx$
+        
+        
+-
+    type: Page
+    id: seqence4
+    content: |
+
+        ### Page4
+
+        有理関数の不定積分において，$g(x)$，$h(x)$を多項式関数として，被積分関数$f(x)$が
+        
+        $f()x—h(x)g()vinculumx$
+        
+        のように表される場合，まず，分子の次数が分母の次数よりも小さくなるまで割り算を実行
+        
+        $f(x)—q(x)+\frac{r(x)}{g(x)}$
+        
+        し，分母の因数分解の形に応じ，部分分数分解$(partialfractiondecomposition)$をしてから，
+        
+        各項を積分する．
+        
+        例題$1.9$次の不定積分を求めよ．
+        
+        $vinculumx^{4}+x^{3}+3x^{2}+2_{dx}x^{3}+x$
+        
+        解答$C$は積分定数とする．
+        
+        $vinculumx^{4}+x^{3}+3x^{2}+2_{dx}x^{3}+x=(x+1)dx+vinculum2xx(2_{x^{2}}—x+2_{dx}+1)$
+        
+        $=(x+)dx+1xvinculum2_{dx}$
+        
+        $x^{2}+1^{dx}vinculum1=2^{x}^{2}1vinculum+x+2ln|x|tan—1_{x}+C$
+        
+        問$1.17$次の不定積分を求めよ．
+        
+        $(1)$
+        
+        $(2)$
+        
+        $(3)$
+        
+        $vinculumx^{3}+x^{2}—2xx^{2}—1—dx$
+        
+        $vinculum4x^{2}—1^{dx}1$
+        
+        $vinculumx^{3}+x^{2}+2x+3_{dx}x^{2}+2$
+        
+        コラム：部分分数分解
+        
+        部分分数分解は，ここで扱った不定積分だけでなく，数列の和を求めるときにも
+        
+        利用した．工学分野では，制御工学や電気回路において微分方程式を解くときに用
+        
+        いられるラプラス変換でも利用されるので，一般的な方法を知っておくとよい．
+        
+        分数式における分母を実数の範囲で因数分解するとき，その因数は，
+        
+        $1)(x—a)$（$k$は自然数）k
+        
+        $2)(x^{2}+bx+c)$（は自然数で，$b^{2}4c0$）
+        
+        の$2$種類に分類される．それぞれの場合，分解後の項を
+        
+        
+-
+    type: Page
+    id: seqence5
+    content: |
+
+        ### Page5
+
+        $1)\frac{A}{—}x1a+(xvinculumA—2a)2++(xvinculumA—ka)k$（$A1$，$A$，$…$，$A2k$は定数）
+        
+        $2)vinculumx^{2}B_{+bx}1x+C_{1}+c+(x^{2}+bx+c)vinculumBx+C_{2}22++(x^{2}+bx+c)vinculumBx+C$
+        
+        とおくことができる．例えば，$_{(}2$次まで，因数$x——2$に対しては$1$次までの分数を考え，分解後の形を（$B_{x^{2}}vinculumx—1)(x—2)1$，$B_{x}$，$…$，$B$，$C_{1}$，$C_{2}$，$…_{1}$，$C+_{2}2+1$のとき，因数$(x—)2$に対してはは定数）
+        
+        $vinculumx—A—1+(x—1)vinculum—B2+x—2vinculumC—$（$A$，$B$，$C$は定数）
+        
+        とおいて，右辺を通分し整理する．
+        
+        $(A+C)x^{2}+(3A+B=C)x+(2Avinculum(x—1)(x—2)22=2B+C)$
+        
+        後は，元の式の分子と係数を比較し，定数$A_{$，$}B$，$C$を求め，
+        
+        $(x—1)(vinculumx^{2}+_{2}x_{x}+1—2)=x—1vinculum6+(x—1)vinculum32+x—2vinculum7$
+        
+        のように分解することができる．
+        
+        特に，分母が$2$次式の場合は，確実に部分分数分解できるようにしておきたい．
+        
+        分母の形に従って，分解後の形を以下に示しておく．
+        
+        $1)(x—a)2$と因数分解できるとき
+        
+        $vinculumxA_{a}——+(xavinculum——B)2$（$A$，$B$は定数）
+        
+        $2)(x—a)(x—b)$と因数分解できるとき（ただし，$ab$とする．）
+        
+        $vinculumxA_{a}——+\frac{B}{—}x—b$（$A$，$B$は定数）
+        
+        $3)$実数の範囲で因数分解できないとき（$x^{2}+bx+c$，$b^{2}4c0$）
+        
+        $vinculumx^{2}+bxr(x)_{+c}$（部分分数分解はできない）
+        
+        
+completion_text: |
+
+    # 説明は終了です。
